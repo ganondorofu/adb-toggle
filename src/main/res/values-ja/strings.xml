@@ -10,12 +10,10 @@
 
     <string name="widget_name_bar">ADB Toggle: バー</string>
     <string name="widget_name_list">ADB Toggle: リスト</string>
-    <string name="widget_name_dev">ADB Toggle: 開発者</string>
-    <string name="widget_desc_bar">3つのボタンを横に並べる</string>
-    <string name="widget_desc_list">ON/OFF 表示付きの3行リスト</string>
+    <string name="widget_desc_bar">2つのボタンを横に並べる</string>
+    <string name="widget_desc_list">ON/OFF 表示付きの2行リスト</string>
     <string name="widget_desc_single">1つの設定だけを切り替える</string>
 
-    <string name="widget_dev">開発者</string>
 
     <string name="main_subtitle">設定画面を開かずにADB関連の設定を切り替え</string>
     <string name="perm_missing_title">権限が必要です</string>

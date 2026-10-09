@@ -12,7 +12,7 @@ Useful when an app (banking apps, for example) refuses to run while USB debuggin
 
 - Switches for USB debugging, wireless debugging and developer options
 - Quick Settings tiles (one per setting)
-- Home screen widgets in 5 variants: bar (3 buttons), list (with ON/OFF status) and single-setting widgets for USB, Wi-Fi and developer options. Colors follow your wallpaper on Android 12+
+- Home screen widgets in 4 variants: bar (2 buttons), list (with ON/OFF status) and single-setting widgets for USB and Wi-Fi. Colors follow your wallpaper on Android 12+
 - No root. Needs a one-time `adb` command to grant a permission
 - No network access, no ads, no analytics
 
@@ -69,7 +69,7 @@ USBデバッグがオンだと起動しない銀行アプリなどを使うと�
 
 - USBデバッグ / ワイヤレスデバッグ / 開発者向けオプションのスイッチ
 - クイック設定タイル(設定ごとに1つ)
-- ホーム画面ウィジェット5種: バー(3ボタン)、リスト(ON/OFF表示付き)、USB・Wi-Fi・開発者向けオプションの単体。Android 12 以降は壁紙の色に連動
+- ホーム画面ウィジェット4種: バー(2ボタン)、リスト(ON/OFF表示付き)、USB・Wi-Fiの単体。Android 12 以降は壁紙の色に連動
 - root不要。最初に1回だけ adb で権限を付与
 - 通信なし、広告なし、解析なし
 

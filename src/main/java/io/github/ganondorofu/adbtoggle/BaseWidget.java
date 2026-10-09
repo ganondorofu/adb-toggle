@@ -39,7 +39,7 @@ abstract class BaseWidget extends AppWidgetProvider {
         AppWidgetManager m = AppWidgetManager.getInstance(c);
         BaseWidget[] all = {
                 new BarWidget(), new ListWidget(),
-                new UsbWidget(), new WirelessWidget(), new DevWidget()
+                new UsbWidget(), new WirelessWidget()
         };
         for (BaseWidget w : all) {
             int[] ids = m.getAppWidgetIds(new ComponentName(c, w.getClass()));

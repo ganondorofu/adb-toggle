@@ -70,17 +70,6 @@
                 android:resource="@xml/widget_single_info" />
         </receiver>
 
-        <receiver
-            android:name=".DevWidget"
-            android:exported="false"
-            android:label="@string/widget_name_dev">
-            <intent-filter>
-                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-            </intent-filter>
-            <meta-data
-                android:name="android.appwidget.provider"
-                android:resource="@xml/widget_single_info" />
-        </receiver>
 
         <service
             android:name=".UsbDebugTile"

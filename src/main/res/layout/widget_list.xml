@@ -86,43 +86,4 @@
             android:textStyle="bold" />
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/list_dev"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_margin="3dp"
-        android:layout_weight="1"
-        android:background="@drawable/widget_btn_off"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-        android:paddingStart="14dp"
-        android:paddingEnd="14dp">
-
-        <ImageView
-            android:id="@+id/list_dev_icon"
-            android:layout_width="22dp"
-            android:layout_height="22dp"
-            android:contentDescription="@null"
-            android:src="@drawable/ic_code" />
-
-        <TextView
-            android:id="@+id/list_dev_label"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="12dp"
-            android:layout_weight="1"
-            android:ellipsize="end"
-            android:maxLines="1"
-            android:text="@string/label_dev"
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/list_dev_state"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/state_off"
-            android:textSize="12sp"
-            android:textStyle="bold" />
-    </LinearLayout>
 </LinearLayout>

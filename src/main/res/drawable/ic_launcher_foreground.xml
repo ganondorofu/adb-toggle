@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- スイッチ(ピル + つまみ)。アダプティブアイコンの安全領域(中央66dp)内に収めている -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FF3DDC84"
+        android:pathData="M36,40h36a14,14 0,0 1,0 28h-36a14,14 0,0 1,0 -28z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M72,54m-10,0a10,10 0,1 0,20 0a10,10 0,1 0,-20 0" />
+</vector>

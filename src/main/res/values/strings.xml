@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ADB Toggle</string>
+
+    <string name="label_usb">USB debugging</string>
+    <string name="label_wireless">Wireless debugging</string>
+    <string name="label_dev">Developer options</string>
+
+    <string name="desc_usb">Allow adb over USB</string>
+    <string name="desc_wireless">Allow adb over Wi-Fi (needs a Wi-Fi connection)</string>
+    <string name="desc_dev">Master switch of the developer options menu</string>
+
+    <string name="widget_usb">USB</string>
+    <string name="widget_wireless">Wi-Fi</string>
+    <string name="widget_dev">Dev</string>
+
+    <string name="main_subtitle">Switch ADB settings without digging through Settings</string>
+    <string name="perm_missing_title">Permission required</string>
+    <string name="perm_missing_body">Run this command once from a PC connected with adb, then reopen the app.</string>
+    <string name="perm_copy">Copy command</string>
+    <string name="perm_copied">Copied</string>
+    <string name="perm_ok">WRITE_SECURE_SETTINGS granted</string>
+    <string name="no_permission">WRITE_SECURE_SETTINGS is not granted</string>
+    <string name="open_dev">Open developer options</string>
+    <string name="open_dev_failed">Could not open developer options</string>
+    <string name="footer">Also available as Quick Settings tiles and a home screen widget.</string>
+</resources>

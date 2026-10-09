@@ -4,60 +4,57 @@
     android:layout_height="match_parent"
     android:background="@drawable/widget_container"
     android:orientation="horizontal"
-    android:padding="6dp">
+    android:padding="8dp">
 
     <LinearLayout
         android:id="@+id/bar_usb"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_margin="3dp"
         android:layout_weight="1"
-        android:background="@drawable/widget_btn_off"
         android:gravity="center"
         android:orientation="vertical">
 
         <ImageView
             android:id="@+id/bar_usb_icon"
-            android:layout_width="22dp"
-            android:layout_height="22dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/circle_off"
             android:contentDescription="@null"
+            android:padding="10dp"
             android:src="@drawable/ic_usb" />
 
         <TextView
-            android:id="@+id/bar_usb_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="5dp"
             android:text="@string/widget_usb"
-            android:textSize="11sp"
-            android:textStyle="bold" />
+            android:textColor="@color/widget_text"
+            android:textSize="11sp" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/bar_wireless"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_margin="3dp"
         android:layout_weight="1"
-        android:background="@drawable/widget_btn_off"
         android:gravity="center"
         android:orientation="vertical">
 
         <ImageView
             android:id="@+id/bar_wireless_icon"
-            android:layout_width="22dp"
-            android:layout_height="22dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/circle_off"
             android:contentDescription="@null"
+            android:padding="10dp"
             android:src="@drawable/ic_wifi" />
 
         <TextView
-            android:id="@+id/bar_wireless_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="5dp"
             android:text="@string/widget_wireless"
-            android:textSize="11sp"
-            android:textStyle="bold" />
+            android:textColor="@color/widget_text"
+            android:textSize="11sp" />
     </LinearLayout>
-
 </LinearLayout>

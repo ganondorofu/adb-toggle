@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="state_on">オン</string>
+    <string name="state_off">オフ</string>
+
     <string name="label_usb">USBデバッグ</string>
     <string name="label_wireless">ワイヤレスデバッグ</string>
     <string name="label_dev">開発者向けオプション</string>

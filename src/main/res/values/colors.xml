@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="bg">#FFF4F6F8</color>
+    <color name="bg">#FFF6F6F6</color>
     <color name="card">#FFFFFFFF</color>
-    <color name="text">#FF14181F</color>
-    <color name="subtext">#FF5B6573</color>
-    <color name="accent">#FF1E9E5A</color>
-    <color name="code_bg">#FFE9EDF1</color>
-    <color name="divider">#FFE3E8EE</color>
+    <color name="text">#FF1F1F1F</color>
+    <color name="subtext">#FF767676</color>
+    <color name="accent">#FF3E91FF</color>
+    <color name="code_bg">#FFF0F0F0</color>
+    <color name="divider">#FFEDEDED</color>
+    <color name="switch_off_track">#FFC9C9C9</color>
+
+    <color name="bubble_blue">#FF3E91FF</color>
+    <color name="bubble_green">#FF2FB67C</color>
+    <color name="bubble_purple">#FF8A6DF2</color>
 
     <color name="icon_bg">#FF16202E</color>
 
-    <!-- ウィジェット(Android 12 未満の固定色。12 以上は values-v31 で壁紙連動色に上書き) -->
-    <color name="widget_bg">#FFFFFFFF</color>
-    <color name="widget_on_bg">#FF1E9E5A</color>
-    <color name="widget_on_fg">#FFFFFFFF</color>
-    <color name="widget_off_bg">#FFE3E8EE</color>
-    <color name="widget_off_fg">#FF4A5563</color>
+    <color name="widget_bg">#F5FFFFFF</color>
+    <color name="widget_text">#FF1F1F1F</color>
+    <color name="widget_subtext">#FF767676</color>
+    <color name="widget_circle_on">#FF3E91FF</color>
+    <color name="widget_circle_off">#FFE2E2E2</color>
+    <color name="widget_icon_on">#FFFFFFFF</color>
+    <color name="widget_icon_off">#FF6B6B6B</color>
+    <color name="widget_switch_off">#FFC9C9C9</color>
 </resources>

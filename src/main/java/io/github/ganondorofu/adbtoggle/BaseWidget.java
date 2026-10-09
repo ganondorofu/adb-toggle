@@ -56,19 +56,25 @@ abstract class BaseWidget extends AppWidgetProvider {
                 PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
     }
 
-    /** ボタン1つ分の配色・状態表示・タップ動作を設定する。0 の ID は無視。 */
-    void bindButton(Context c, RemoteViews rv, String key,
-                    int bg, int icon, int label, int state) {
+    /**
+     * 1設定分の表示とタップ動作を設定する。0 の ID は無視。
+     * icon: 円形アイコン(ON=青の円+白、OFF=灰の円+灰)、state: ON/OFF の文字、
+     * sw: スイッチ画像。
+     */
+    void bind(Context c, RemoteViews rv, String key, int root, int icon, int state, int sw) {
         boolean on = AdbSettings.isOn(c, key);
-        rv.setInt(bg, "setBackgroundResource",
-                on ? R.drawable.widget_btn_on : R.drawable.widget_btn_off);
-        int fg = c.getColor(on ? R.color.widget_on_fg : R.color.widget_off_fg);
-        if (icon != 0) rv.setInt(icon, "setColorFilter", fg);
-        if (label != 0) rv.setTextColor(label, fg);
-        if (state != 0) {
-            rv.setTextColor(state, fg);
-            rv.setTextViewText(state, c.getString(on ? R.string.state_on : R.string.state_off));
+        if (icon != 0) {
+            rv.setInt(icon, "setBackgroundResource", on ? R.drawable.circle_on : R.drawable.circle_off);
+            rv.setInt(icon, "setColorFilter",
+                    c.getColor(on ? R.color.widget_icon_on : R.color.widget_icon_off));
         }
-        rv.setOnClickPendingIntent(bg, toggleIntent(c, key));
+        if (state != 0) {
+            rv.setTextViewText(state, c.getString(on ? R.string.state_on : R.string.state_off));
+            rv.setTextColor(state, c.getColor(on ? R.color.widget_circle_on : R.color.widget_subtext));
+        }
+        if (sw != 0) {
+            rv.setImageViewResource(sw, on ? R.drawable.switch_on_img : R.drawable.switch_off_img);
+        }
+        rv.setOnClickPendingIntent(root, toggleIntent(c, key));
     }
 }

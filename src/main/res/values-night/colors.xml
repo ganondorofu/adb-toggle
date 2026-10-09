@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="bg">#FF0F141B</color>
-    <color name="card">#FF1A212B</color>
-    <color name="text">#FFE8ECF1</color>
-    <color name="subtext">#FF9AA5B4</color>
-    <color name="accent">#FF3DDC84</color>
-    <color name="code_bg">#FF0B0F14</color>
-    <color name="divider">#FF2A3340</color>
+    <color name="bg">#FF000000</color>
+    <color name="card">#FF1E1E1E</color>
+    <color name="text">#FFFFFFFF</color>
+    <color name="subtext">#FF9E9E9E</color>
+    <color name="accent">#FF3E91FF</color>
+    <color name="code_bg">#FF121212</color>
+    <color name="divider">#FF2E2E2E</color>
+    <color name="switch_off_track">#FF5A5A5A</color>
 
-    <color name="widget_bg">#FF1A212B</color>
-    <color name="widget_on_bg">#FF3DDC84</color>
-    <color name="widget_on_fg">#FF06281A</color>
-    <color name="widget_off_bg">#FF2A3340</color>
-    <color name="widget_off_fg">#FFC9D1DB</color>
+    <color name="widget_bg">#F51F1F1F</color>
+    <color name="widget_text">#FFFFFFFF</color>
+    <color name="widget_subtext">#FFA0A0A0</color>
+    <color name="widget_circle_off">#FF3A3A3A</color>
+    <color name="widget_icon_off">#FFBDBDBD</color>
+    <color name="widget_switch_off">#FF5A5A5A</color>
 </resources>

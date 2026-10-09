@@ -10,8 +10,8 @@
     <string name="desc_wireless">Allow adb over Wi-Fi (needs a Wi-Fi connection)</string>
     <string name="desc_dev">Master switch of the developer options menu</string>
 
-    <string name="state_on">ON</string>
-    <string name="state_off">OFF</string>
+    <string name="state_on">On</string>
+    <string name="state_off">Off</string>
 
     <string name="widget_name_bar">ADB Toggle: Bar</string>
     <string name="widget_name_list">ADB Toggle: List</string>

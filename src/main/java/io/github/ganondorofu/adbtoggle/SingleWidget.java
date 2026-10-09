@@ -17,7 +17,7 @@ abstract class SingleWidget extends BaseWidget {
         RemoteViews rv = new RemoteViews(c.getPackageName(), R.layout.widget_single);
         rv.setImageViewResource(R.id.s_icon, icon());
         rv.setTextViewText(R.id.s_label, c.getString(label()));
-        bindButton(c, rv, key(), R.id.s_root, R.id.s_icon, R.id.s_label, R.id.s_state);
+        bind(c, rv, key(), R.id.s_root, R.id.s_icon, R.id.s_state, 0);
         return rv;
     }
 }

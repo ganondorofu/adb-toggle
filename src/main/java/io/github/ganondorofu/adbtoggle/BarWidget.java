@@ -8,8 +8,8 @@ public class BarWidget extends BaseWidget {
     @Override
     RemoteViews build(Context c) {
         RemoteViews rv = new RemoteViews(c.getPackageName(), R.layout.widget_bar);
-        bindButton(c, rv, AdbSettings.USB, R.id.bar_usb, R.id.bar_usb_icon, R.id.bar_usb_label, 0);
-        bindButton(c, rv, AdbSettings.WIRELESS, R.id.bar_wireless, R.id.bar_wireless_icon, R.id.bar_wireless_label, 0);
+        bind(c, rv, AdbSettings.USB, R.id.bar_usb, R.id.bar_usb_icon, 0, 0);
+        bind(c, rv, AdbSettings.WIRELESS, R.id.bar_wireless, R.id.bar_wireless_icon, 0, 0);
         return rv;
     }
 }

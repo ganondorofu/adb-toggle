@@ -23,7 +23,7 @@ Useful when an app (banking apps, for example) refuses to run while USB debuggin
 3. Grant the permission (once):
 
    ```
-   adb shell pm grant io.github.ganondorofu.adbtoggle android.permission.WRITE_SECURE_SETTINGS
+   adb shell pm grant dev.komeniki.adbtoggle android.permission.WRITE_SECURE_SETTINGS
    ```
 
    The app shows this command with a copy button until the permission is granted.
@@ -80,7 +80,7 @@ USBデバッグがオンだと起動しない銀行アプリなどを使うと�
 3. 権限を付与します(1回だけ)。
 
    ```
-   adb shell pm grant io.github.ganondorofu.adbtoggle android.permission.WRITE_SECURE_SETTINGS
+   adb shell pm grant dev.komeniki.adbtoggle android.permission.WRITE_SECURE_SETTINGS
    ```
 
    付与するまで、アプリ内にこのコマンドとコピーボタンが表示されます。

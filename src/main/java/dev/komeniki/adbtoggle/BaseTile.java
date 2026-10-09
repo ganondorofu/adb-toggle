@@ -1,4 +1,4 @@
-package io.github.ganondorofu.adbtoggle;
+package dev.komeniki.adbtoggle;
 
 import android.service.quicksettings.Tile;
 import android.service.quicksettings.TileService;

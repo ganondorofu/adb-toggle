@@ -1,4 +1,4 @@
-package io.github.ganondorofu.adbtoggle;
+package dev.komeniki.adbtoggle;
 
 import android.content.Context;
 import android.content.pm.PackageManager;

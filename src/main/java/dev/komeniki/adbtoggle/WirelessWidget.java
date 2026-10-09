@@ -1,4 +1,4 @@
-package io.github.ganondorofu.adbtoggle;
+package dev.komeniki.adbtoggle;
 
 public class WirelessWidget extends SingleWidget {
     @Override String key() { return AdbSettings.WIRELESS; }

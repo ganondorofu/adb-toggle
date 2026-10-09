@@ -1,4 +1,4 @@
-package io.github.ganondorofu.adbtoggle;
+package dev.komeniki.adbtoggle;
 
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
@@ -13,7 +13,7 @@ import android.widget.Toast;
 /** 全ウィジェット共通: タップで切替、状態に応じた配色、一括更新。 */
 abstract class BaseWidget extends AppWidgetProvider {
 
-    private static final String ACTION_TOGGLE = "io.github.ganondorofu.adbtoggle.TOGGLE";
+    private static final String ACTION_TOGGLE = "dev.komeniki.adbtoggle.TOGGLE";
 
     abstract RemoteViews build(Context c);
 

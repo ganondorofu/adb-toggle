@@ -1,7 +1,5 @@
 package io.github.ganondorofu.adbtoggle;
 
-import android.appwidget.AppWidgetManager;
-import android.content.ComponentName;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.provider.Settings;
@@ -45,8 +43,6 @@ final class AdbSettings {
     }
 
     static void refreshWidgets(Context c) {
-        AppWidgetManager m = AppWidgetManager.getInstance(c);
-        int[] ids = m.getAppWidgetIds(new ComponentName(c, ToggleWidget.class));
-        if (ids.length > 0) ToggleWidget.update(c, m, ids);
+        BaseWidget.refreshAll(c);
     }
 }

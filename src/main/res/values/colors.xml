@@ -6,11 +6,14 @@
     <color name="subtext">#FF5B6573</color>
     <color name="accent">#FF1E9E5A</color>
     <color name="code_bg">#FFE9EDF1</color>
+    <color name="divider">#FFE3E8EE</color>
 
     <color name="icon_bg">#FF16202E</color>
 
-    <color name="widget_off_bg">#E6394350</color>
-    <color name="widget_on_bg">#F21E9E5A</color>
-    <color name="widget_text_on">#FFFFFFFF</color>
-    <color name="widget_text_off">#FFC9D1DB</color>
+    <!-- ウィジェット(Android 12 未満の固定色。12 以上は values-v31 で壁紙連動色に上書き) -->
+    <color name="widget_bg">#FFFFFFFF</color>
+    <color name="widget_on_bg">#FF1E9E5A</color>
+    <color name="widget_on_fg">#FFFFFFFF</color>
+    <color name="widget_off_bg">#FFE3E8EE</color>
+    <color name="widget_off_fg">#FF4A5563</color>
 </resources>
